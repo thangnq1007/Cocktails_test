@@ -7,6 +7,7 @@ Variables
 :root {
   --primaryLightColor: #d4e6a5;
   --primaryColor: #476a2e;
+  --primaryColorname: #6a4ee7;
   --primaryDarkColor: #c02c03;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
@@ -335,6 +336,30 @@ Cocktail
   padding: 0.25rem 0.5rem;
   border-radius: var(--mainBorderRadius);
   color: var(--primaryColor);
+}
+.data-name {
+  background: var(--primaryLightColor);
+  color: var(--primaryColorname);
+}
+.data-category {
+  background: var(--primaryLightColor);
+  color: var(--primaryColorname);
+}
+.data-info {
+  background: var(--primaryLightColor);
+  color: var(--primaryColorname);
+}
+.data-glass {
+  background: var(--primaryLightColor);
+  color: var(--primaryColorname);
+}
+.data-instructions {
+  background: var(--primaryLightColor);
+  color: var(--primaryColorname);
+}
+.data-ingredients {
+  background: var(--primaryLightColor);
+  color: var(--primaryColorname);
 }
 .drink-info {
   padding-top: 2rem;

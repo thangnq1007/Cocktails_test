@@ -73,36 +73,36 @@ export default function SingleCocktail() {
     } = cocktail
     return (
       <section className='section cocktail-section'>
-        <Link to='/' className='btn btn-primary'>
-          back home
-        </Link>
         <h2 className='section-title'>{name}</h2>
         <div className='drink'>
           <img src={image} alt={name}></img>
           <div className='drink-info'>
             <p>
-              <span className='drink-data'>name :</span> {name}
+              <span className='drink-data data-name'>name :</span> {name}
             </p>
             <p>
-              <span className='drink-data'>category :</span> {category}
+              <span className='drink-data data-category'>category :</span> {category}
             </p>
             <p>
-              <span className='drink-data'>info :</span> {info}
+              <span className='drink-data data-info'>info :</span> {info}
             </p>
             <p>
-              <span className='drink-data'>glass :</span> {glass}
+              <span className='drink-data data-glass'>glass :</span> {glass}
             </p>
             <p>
-              <span className='drink-data'>instructons :</span> {instructions}
+              <span className='drink-data data-instructions'>instructons :</span> {instructions}
             </p>
             <p>
-              <span className='drink-data'>ingredients :</span>
+              <span className='drink-data data-ingredients'>ingredients :</span>
               {ingredients.map((item, index) => {
                 return item ? <span key={index}> {item}</span> : null
               })}
             </p>
           </div>
         </div>
+        <Link to='/' className='btn btn-primary'>
+          back home
+        </Link>
       </section>
     )
   }
