@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Cocktails_test/static/css/main.4b4b5ade.chunk.css",
+    "main.js": "/Cocktails_test/static/js/main.1a855d3a.chunk.js",
+    "main.js.map": "/Cocktails_test/static/js/main.1a855d3a.chunk.js.map",
+    "runtime-main.js": "/Cocktails_test/static/js/runtime-main.6d51ed7d.js",
+    "runtime-main.js.map": "/Cocktails_test/static/js/runtime-main.6d51ed7d.js.map",
+    "static/js/2.34a96673.chunk.js": "/Cocktails_test/static/js/2.34a96673.chunk.js",
+    "static/js/2.34a96673.chunk.js.map": "/Cocktails_test/static/js/2.34a96673.chunk.js.map",
+    "index.html": "/Cocktails_test/index.html",
+    "static/css/main.4b4b5ade.chunk.css.map": "/Cocktails_test/static/css/main.4b4b5ade.chunk.css.map",
+    "static/js/2.34a96673.chunk.js.LICENSE.txt": "/Cocktails_test/static/js/2.34a96673.chunk.js.LICENSE.txt",
+    "static/media/logo.debb737a.svg": "/Cocktails_test/static/media/logo.debb737a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d51ed7d.js",
+    "static/js/2.34a96673.chunk.js",
+    "static/css/main.4b4b5ade.chunk.css",
+    "static/js/main.1a855d3a.chunk.js"
+  ]
+}
