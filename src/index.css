@@ -7,7 +7,6 @@ Variables
 :root {
   --primaryLightColor: #d4e6a5;
   --primaryColor: #476a2e;
-  --primaryColorname: #6a4ee7;
   --primaryDarkColor: #c02c03;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
@@ -106,13 +105,15 @@ Buttons
   color: var(--primaryColor);
 }
 .btn-primary {
-  background: var(--primaryColor);
-  color: var(--mainWhite);
+  background: #276e21;
+  color: #ffffff;
   border-color: transparent;
+  font-weight: 600;
 }
 .btn-primary:hover {
-  background: var(--primaryLightColor);
-  color: var(--primaryColor);
+  background: #61f36d;
+  color: #534f4f;
+  font-weight: 600;
 }
 .btn-block {
   width: 100%;
@@ -322,6 +323,9 @@ Cocktail
 }
 .drink img {
   border-radius: var(--mainBorderRadius);
+  border: 3px solid rgb(68, 38, 38);
+  border-radius: 5px;
+  padding: 4px;
 }
 .drink p {
   font-weight: bold;
@@ -338,28 +342,28 @@ Cocktail
   color: var(--primaryColor);
 }
 .data-name {
-  background: var(--primaryLightColor);
-  color: var(--primaryColorname);
+  background: #fabfbf;
+  color: #000000;
 }
 .data-category {
-  background: var(--primaryLightColor);
-  color: var(--primaryColorname);
+  background: #ffc59f;
+  color: #000000;
 }
 .data-info {
-  background: var(--primaryLightColor);
-  color: var(--primaryColorname);
+  background: #f8f0a6;
+  color: #000000;
 }
 .data-glass {
-  background: var(--primaryLightColor);
-  color: var(--primaryColorname);
+  background: #c9f79e;
+  color: #000000;
 }
 .data-instructions {
-  background: var(--primaryLightColor);
-  color: var(--primaryColorname);
+  background: #9ae0dd;
+  color: #000000;
 }
 .data-ingredients {
-  background: var(--primaryLightColor);
-  color: var(--primaryColorname);
+  background: #d6b5fc;
+  color: #000000;
 }
 .drink-info {
   padding-top: 2rem;
@@ -434,4 +438,9 @@ Cocktail
     box-shadow: 0 -2em;
     height: 5em;
   }
+}
+.visible {
+  visibility: hidden;
+  color: red;
+  height: 58px;
 }
